@@ -1,6 +1,6 @@
 设计短链接服务 API 过程
 技术栈： Express TypeScript Node Mongodb
-简单学习了 TypeScript 语法
+简单在B站学习了 TypeScript 语法
 Win10 安装 node 环境 npm npx yarn mongodb 等环境都提前安装好
 
 0.先打通 本地的 CRUD 功能
@@ -18,3 +18,5 @@ const schemaShortPath = Joi.object({
 shortCode: Joi.string().trim(), //短链接
 longUrl: Joi.string().trim().required(), //原始长链接
 })
+
+
