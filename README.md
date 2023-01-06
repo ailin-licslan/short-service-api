@@ -43,7 +43,7 @@ mongodb 连接测试
 ![test-database-connection](https://github.com/ailin-licslan/short-service-api/blob/main/image/test-database.png)
 
 生成短链接
-![test-database-connection](https://github.com/ailin-licslan/short-service-api/blob/main/image/test-database.png)
+![test-short-link-maker](https://github.com/ailin-licslan/short-service-api/blob/main/image/test-short-link-maker.png)
 
 短链接跳转
-![test-database-connection](https://github.com/ailin-licslan/short-service-api/blob/main/image/test-database.png)
+![test-redirct](https://github.com/ailin-licslan/short-service-api/blob/main/image/test-redirct.png)
