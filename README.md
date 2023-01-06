@@ -1,6 +1,6 @@
 设计短链接服务 API 过程
 技术栈： Express TypeScript Node Mongodb
-简单在B站学习了 TypeScript 语法
+简单在 B 站学习了 TypeScript 语法
 Win10 安装 node 环境 npm npx yarn mongodb 等环境都提前安装好
 
 0.先打通 本地的 CRUD 功能
@@ -19,4 +19,11 @@ shortCode: Joi.string().trim(), //短链接
 longUrl: Joi.string().trim().required(), //原始长链接
 })
 
+需要添加的基本依赖
+import express from 'express' ==> express 依赖
+import monk from 'monk' ==> 连接 mongodb 或者 mongoose 也行
+import Joi from '@hapi/joi' ==> 校验 schema 规则 传参是否规范满足要求
+import shortId from 'shortid' ==> 生成 shortId
+import validUrl from 'valid-url' ==> 校验 Url
+import config from 'config' ==> 读取配置
 
