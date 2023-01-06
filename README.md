@@ -39,7 +39,6 @@ longUrl: Joi.string().trim().required(), //原始长链接
 
 #### 10.项目测试接口地址
 
-#```
 localhost:8000/test 测试所有数据 可以参考步骤 11 中的截图格式 test-database-connection
 [
 {
@@ -71,7 +70,6 @@ localhost:8000/test 测试所有数据 可以参考步骤 11 中的截图格式 
 "longUrl": "https://www.bilibili.com/video/BV12t411j7Un?p=5&spm_id_from=pageDriver&vd_source=bbb985ceadc8e3199d1d5a091b58155b"
 }
 ]
-#```
 
 localhost:8000/shorten/save 长连接生成短链接接口地址 可以参考步骤 11 中的截图格式 test-short-link-maker
 localhost:8000/\_6IFePlEl 短链接接口地址 可以参考步骤 11 中的截图格式 test-redirct
