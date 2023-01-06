@@ -129,7 +129,12 @@ app.post('/shorten/save', async (req, res) => {
     }
     //信息不存在
     else {
-      const urlCode = shortId.generate()
+      var urlCode = shortId.generate()
+
+      //短域名长度最大为 8 个字符（不含域名） 
+      if (urlCode.length > 8) {
+        urlCode = urlCode.substring(0, 8)
+      }
       const object = {
         shortCode: urlCode,
         longUrl: longUrl,
